@@ -1,5 +1,5 @@
 {
-    "name": "vadosdog/healthcheck",
+    "name": "gfpublic/healthcheck",
     "description": "Check system status",
     "type": "library",
     "license": "MIT",
