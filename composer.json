@@ -1,0 +1,32 @@
+{
+    "name": "vadosdog/healthcheck",
+    "description": "Check system status",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Nikolay Shishkin",
+            "email": "n.shishkin@growfood.pro"
+        },
+        {
+            "name": "Vasiliev Vadim",
+            "email": "v.vasiliev@growfood.pro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gftech\\Healthcheck\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gftech\\Healthcheck\\HealthCheckServiceProvider"
+            ]
+        }
+    }
+}
