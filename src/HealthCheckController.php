@@ -2,12 +2,12 @@
 
 namespace Gftech\Healthcheck;
 
-use App\Http\Controllers\Api\V1\BaseController;
+use Illuminate\Routing\Controller;
 use Illuminate\Http\Response;
 use Illuminate\Http\JsonResponse;
 use Throwable;
 
-class HealthCheckController extends BaseController
+class HealthCheckController extends Controller
 {
     /**
      * Роут для мониторинга работает ли БД, редис и тд. Будет дергаться извне
